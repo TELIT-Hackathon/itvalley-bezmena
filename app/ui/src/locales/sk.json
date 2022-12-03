@@ -91,5 +91,42 @@
   "Other":{
     "ListOfFavorites":"Zoznam oblubenych eventov",
     "Footer":"Kontakty"
+  },
+  "MainPage":{
+    "Filter":"Filtruj",
+    "Newest":"Frontend",
+    "Close":"Soon",
+    "Biggest":"Biggest",
+    "Sport":"Sport",
+    "Entertainment":"Entertainment",
+    "Music":"Music",
+    "Travelling":"Travelling",
+    "Food":"Food",
+    "Education":"Education",
+    "Other":"Other",
+    "Create":"Create a Projekt",
+    "Favorite":"Favorite",
+    "NoEvents":"There are no events",
+    "Friends":"People you may know",
+    "Add":"Add",
+    "Search":"Search",
+    "NotifNoEvent":"Neexistuje taky event",
+    "NotifAddedFav":"Pridany do oblubenych",
+    "NotifEventCreated":"Event bol vytvoreny"
+  },
+  "Difficulty":{
+    "Newest":"Najdovšie",
+    "Favorite":"Obľúbené",
+    "Beginner":"Začiatočník",
+    "Advanced":"Pokročilý",
+    "Expert":"Expert"
+  },
+  "Technologie":{
+    "Angular":"Angular",
+    "Java":"Java",
+    "Python":"Python",
+    "React":"React",
+    "Cplus":"C++",
+    "Csharp":"C#"
   }
 }

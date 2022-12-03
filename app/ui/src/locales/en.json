@@ -94,7 +94,6 @@
   },
   "MainPage":{
     "Filter":"Filter by",
-    "Newest":"Newest created",
     "Close":"Soon",
     "Biggest":"Biggest",
     "Sport":"Sport",
@@ -104,14 +103,29 @@
     "Food":"Food",
     "Education":"Education",
     "Other":"Other",
-    "Create":"Create Event",
-    "Favorite":"Favorite",
+    "Create":"Create a Projekt",
     "NoEvents":"There are no events",
     "Friends":"People you may know",
     "Add":"Add",
     "Search":"Search",
     "NotifNoEvent":"Neexistuje taky event",
     "NotifAddedFav":"Pridany do oblubenych",
-    "NotifEventCreated":"Event bol vytvoreny"
+    "NotifEventCreated":"Event bol vytvoreny",
+  },
+  "Difficulty":{
+    "Newest":"Newest created",
+    "Favorite":"Favorite",
+    "Beginner":"Beginner",
+    "Advanced":"Advanced",
+    "Expert":"Expert"
+  },
+  "Technologie":{
+    "Angular":"Angular",
+    "Java":"Java",
+    "Python":"Python",
+    "React":"React",
+    "Cplus":"C++",
+    "Csharp":"C#",
+    "JavaScript":"Java Script"
   }
 }
