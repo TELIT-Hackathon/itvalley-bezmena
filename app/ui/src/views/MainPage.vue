@@ -8,27 +8,27 @@
     <Modal v-show="isModalVisible" @close="closeModal" />
 
     <div class="search">
-    <input type="text" class="searchbar" placeholder="Vyhladat..." v-model="searchValue" />
+    <input type="text" class="searchbar" placeholder="🔎 ..." v-model="searchValue" />
     <button style="margin-left: 1rem" class="filters" @click="searchBar()">{{ $t("MainPage.Search") }}</button>
     <button class="create" type="button" @click="showModal">{{$t("MainPage.Create") }}</button>
     </div>
     
     <div class="dashboard"> {{ $t("MainPage.Filter") }}
       <button class="filters" @click="sortEvents2('2')">{{ $t("Difficulty.Newest") }}</button>
-      <button class="filters" style="margin-right:2rem" @click="redirectFavorite">{{ $t("MainPage.Favorite") }}</button><span class="vl"></span>
+      <button class="filters" style="margin-right:2rem" @click="redirectFavorite">{{ $t("Difficulty.Favorite") }}</button><span class="vl"></span>
       <button class="filters" @click="sortEvents2('1')">{{ $t("Difficulty.Beginner") }}</button>
       <button class="filters" @click="sortEvents2('3')">{{ $t("Difficulty.Advanced") }}</button>
       <button class="filters" @click="sortEvents2('3')">{{ $t("Difficulty.Expert") }}</button>
     </div>
     
     <div class="dashboard" style="margin-top: 1rem">
-      <button class="filters" style="background-color:#f8cee0" @click="sortEvents('sport')">{{ $t("Technologie.Angular") }}</button>
-      <button class="filters" style="background-color:#d1e5f8" @click="sortEvents('entertainment')">{{ $t("Technologie.Java") }}</button>
-      <button class="filters" style="background-color:#eff57c" @click="sortEvents('music')">{{ $t("Technologie.Python") }}</button>
-      <button class="filters" style="background-color:#c8c3f8" @click="sortEvents('travelling')">{{ $t("Technologie.React") }}</button>
-      <button class="filters" style="background-color:#6c5676; color:#fff" @click="sortEvents('food')">{{ $t("Technologie.Cplus") }}</button>
-      <button class="filters" style="background-color:#bfef88" @click="sortEvents('education')">{{ $t("Technologie.Csharp") }}</button>
-      <button class="filters" style="background-color:#f8b184" @click="sortEvents('other')">{{ $t("Technologie.JavaScript") }}</button>
+      <button class="sport" style="background-color:#f8cee0" @click="sortEvents('sport')">{{ $t("Technologie.Angular") }}</button>
+      <button class="entertainment" style="background-color:#d1e5f8" @click="sortEvents('entertainment')">{{ $t("Technologie.Java") }}</button>
+      <button class="music" style="background-color:#eff57c" @click="sortEvents('music')">{{ $t("Technologie.Python") }}</button>
+      <button class="travelling" style="background-color:#c8c3f8" @click="sortEvents('travelling')">{{ $t("Technologie.React") }}</button>
+      <button class="food" style="background-color:#6c5676; color:#fff" @click="sortEvents('food')">{{ $t("Technologie.Cplus") }}</button>
+      <button class="education" style="background-color:#bfef88" @click="sortEvents('education')">{{ $t("Technologie.Csharp") }}</button>
+      <button class="javaScript" style="background-color:#f8b184" @click="sortEvents('other')">{{ $t("Technologie.JavaScript") }}</button>
     </div>
 
     <div class="event-list">
@@ -334,10 +334,9 @@ body{
 }
 
 .filters{
-  /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
-  font-family: Roboto, Monospace, sans-serif;
-  background-color: #2874FC;
-  color: #2c3e50;
+  font-family: Roboto, Monospaced, sans-serif;
+  background-color: #020381 !important;
+  color: white !important;
   margin: 0 0.8% 0 0.8%;
 }
 
