@@ -7,11 +7,11 @@
         @error="replaceByDefault"
       />
       <span>
-        <img src="../images/edit-icon.jpg" class="add-remove-friend-img edit-i" style="width: calc(1.6rem + 0.7vw);" v-if="this.user == singleUser.username" @click="redirecteditprofile"/>
+        <img src="../images/edit-icon.png" class="add-remove-friend-img edit-i" style="width: calc(1.6rem + 0.7vw);" v-if="this.user == singleUser.username" @click="redirecteditprofile"/>
 
-        <img src="../images/add-contact-icon.jpg" class="add-remove-friend-img add-frnd" @click="addFriend" v-if="!(this.user == singleUser.username) && !this.added"/>
+        <img src="../images/add-contact-icon.png" class="add-remove-friend-img add-frnd" @click="addFriend" v-if="!(this.user == singleUser.username) && !this.added"/>
 
-        <img src="../images/contact-added-icon.jpg" class="add-remove-friend-img rmv-frnd" @click="removeFriend" v-if="!(this.user == singleUser.username) && this.added"/>
+        <img src="../images/contact-added-icon.png" class="add-remove-friend-img rmv-frnd" @click="removeFriend" v-if="!(this.user == singleUser.username) && this.added"/>
 
         <span class="name">{{ singleUser.username }}</span
         ><br />
@@ -417,7 +417,7 @@ hr {
 }
 
 .add-frnd:hover{
-  content: url('../images/add-contact-icon-hover.jpg');
+  content: url('../images/add-contact-icon-hover.png');
 }
 
 .rmv-frnd:hover{
@@ -425,6 +425,6 @@ hr {
 }
 
 .edit-i:hover{
-  content: url('../images/edit-icon-hover.jpg');
+  content: url('../images/edit-icon-hover.png');
 }
 </style>

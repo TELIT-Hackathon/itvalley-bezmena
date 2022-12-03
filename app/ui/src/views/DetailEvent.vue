@@ -22,7 +22,7 @@
         <button v-if="this.user != null && this.user != 'null' && this.UserSigned && this.owner!=this.user" @click="deleteUserFromEvent(this.user)" class="detail-buttons">
           {{ $t("DetailEvent.SignOut") }}
         </button>      
-        <a href="#edit-event-anchor"><img src="../images/edit-icon.jpg" @click="redirecteditevent()" 
+        <a href="#edit-event-anchor"><img src="../images/edit-icon.png" @click="redirecteditevent()" 
         v-if="this.user == this.owner" class="add-remove-friend-img edit-i" style="width: calc(1.6rem + 0.7vw);float:none;margin-right: 1.5rem"/></a>
 
         
@@ -497,7 +497,7 @@ element.trash-red:hover{
 }
 
 element.like-green:hover{
-  content: url('../images/like-icon-green.jpg');
+  content: url('../images/like-icon-blue.png');
   cursor: pointer;
   width: 2.2rem;
   aspect-ratio: 1;

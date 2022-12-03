@@ -10,7 +10,10 @@
     <div class="search">
     <input type="text" class="searchbar" placeholder="🔎 ..." v-model="searchValue" />
     <button style="margin-left: 1rem" class="filters" @click="searchBar()">{{ $t("MainPage.Search") }}</button>
-    <button class="create" type="button" @click="showModal">{{$t("MainPage.Create") }}</button>
+    <button class="create" type="button" @click="showModal">
+      <img src="../images/plus.png" style="width:15px; " alt="+">
+      {{$t("MainPage.Create") }}
+    </button>
     </div>
     
     <div class="dashboard"> {{ $t("MainPage.Filter") }}
@@ -426,8 +429,18 @@ body{
 .create{
   background-color: #020381;
   margin-left: 2rem;
-  /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
   font-family: Roboto, Monospace, sans-serif;
+  position:fixed;
+	bottom:40px;
+	right:40px;
+	color:#FFF;
+	text-align:center;
+  border: 2px solid #FFF;
+
+}
+
+.create:hover{
+  background-color: #109fff;
 }
 
 </style>
