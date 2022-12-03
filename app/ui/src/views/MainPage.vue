@@ -306,7 +306,7 @@ body{
 
 .box {
   aspect-ratio: 69%;
-  background-color: #cfcff5;
+  background-color: #020381;
   border-radius: 0.3rem;
   width: 18vw;
   min-width: 13.5rem !important;
@@ -426,7 +426,8 @@ body{
 .create{
   background-color: #020381;
   margin-left: 2rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+  font-family: Roboto, Monospace, sans-serif;
 }
 
 </style>

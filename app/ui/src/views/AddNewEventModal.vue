@@ -184,7 +184,7 @@ input[type="radio"] {
   display: inline-flex;
   border-radius: 50%;
   scale: 1.4;
-  accent-color: #42b983;
+  accent-color: #020381;
 }
 
 input{
@@ -293,7 +293,7 @@ button:hover {
 .modal-header {
   position: relative;
   border-bottom: 1px solid #eeeeee;
-  color: #4aae9b;
+  color: #020381;
   justify-content: space-between;
 }
 
