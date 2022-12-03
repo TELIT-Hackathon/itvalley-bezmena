@@ -42,7 +42,7 @@ export default {
   data() {
     return {
       events: [],
-      ids: [1,5],
+      ids: [],
       PhotoPath: "http://127.0.0.1:8000/Photos/",
       format: ".jpg",
       user: "null",

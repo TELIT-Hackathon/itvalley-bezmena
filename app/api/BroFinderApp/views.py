@@ -126,7 +126,7 @@ def eventsApi(request,id=0):
         if events_serializer.is_valid():
             events_serializer.save()
             return JsonResponse(events_serializer.data['EventId'],safe=False)
-        return JsonResponse("Failed to Add",safe=False)
+        return JsonResponse("Failed to Adds",safe=False)
     elif request.method=='PUT':
         event_data=JSONParser().parse(request)
         event=Events.objects.get(EventId=event_data['EventId'])
