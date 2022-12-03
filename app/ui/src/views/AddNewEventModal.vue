@@ -195,7 +195,7 @@ input::file-selector-button {
   font-weight: bold;
   color:#020381;
   padding: 0.5em;
-  border: 0 solid #e2e8f0;
+  border: 0 solid #092448;
   border-radius: 1.5rem;
   background-color: #dceeea;
   padding: 0.5rem 1rem 0.5rem 1rem;
