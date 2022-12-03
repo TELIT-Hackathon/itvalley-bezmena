@@ -6,7 +6,8 @@
 
 <style>
 #app {
-  font-family: Avenir, Lato, sans-serif;
+/*  font-family: Avenir, Lato, sans-serif;*/
+  font-family: Roboto, Monospaced, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;

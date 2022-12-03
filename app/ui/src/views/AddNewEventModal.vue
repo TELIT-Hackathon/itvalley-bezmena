@@ -193,7 +193,7 @@ input{
 
 input::file-selector-button {
   font-weight: bold;
-  color:#42b983;
+  color:#020381;
   padding: 0.5em;
   border: 0 solid #e2e8f0;
   border-radius: 1.5rem;
@@ -221,14 +221,14 @@ input[type="checkbox"] {
 }
 
 button {
-  background-color: #42b983;
+  background-color: #020381;
   border: 0 solid #e2e8f0;
   border-radius: 1.5rem;
   box-sizing: border-box;
   color: #ffffff;
   cursor: pointer;
   display: inline-block;
-  font-family: Lato;
+  font-family: "Roboto Black", Monospaced, sans-serif;
   font-size: 1.05rem;
   font-weight: 600;
   line-height: 1;
@@ -317,14 +317,14 @@ button:hover {
   padding: 7px 12px;
   cursor: pointer;
   font-weight: bold;
-  color: #4aae9b;
+  color: #2874FC;
   background: transparent;
 }
 
 .btn-green {
   color: white;
-  background: #42b983;
-  border: 1px solid #42b983;
+  background: #020381;
+  border: 1px solid #020381;
   border-radius: 2px;
 }
 </style>
