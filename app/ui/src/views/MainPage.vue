@@ -306,7 +306,7 @@ body{
 
 .box {
   aspect-ratio: 69%;
-  background-color: #020381;
+  background-color: #ccccec;
   border-radius: 0.3rem;
   width: 18vw;
   min-width: 13.5rem !important;
