@@ -122,7 +122,7 @@ input[type="checkbox"] {
   top: -2px;
   cursor: pointer;
   scale: 1.5;
-  accent-color: #42b983;
+  accent-color: #020381;
 }
 
 .pill {

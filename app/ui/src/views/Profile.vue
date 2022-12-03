@@ -360,7 +360,7 @@ export default {
   width: 25%;
   min-height: 150px;
   min-width: 150px;
-  outline: 3px solid #42b983;
+  outline: 3px solid #020381;
   margin-right: 40px;
   object-fit: cover;
 }
