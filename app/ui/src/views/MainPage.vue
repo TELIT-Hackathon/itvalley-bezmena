@@ -306,7 +306,7 @@ body{
 
 .box {
   aspect-ratio: 69%;
-  background-color: #dceeea;
+  background-color: #020381;
   border-radius: 0.3rem;
   width: 18vw;
   min-width: 13.5rem !important;
@@ -334,7 +334,8 @@ body{
 }
 
 .filters{
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+  font-family: Roboto, Monospace, sans-serif;
   background-color: #2874FC;
   color: #2c3e50;
   margin: 0 0.8% 0 0.8%;
@@ -426,7 +427,8 @@ body{
 .create{
   background-color: #020381;
   margin-left: 2rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /*font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;*/
+  font-family: Roboto, Monospace, sans-serif;
 }
 
 </style>
