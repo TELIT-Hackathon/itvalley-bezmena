@@ -29,7 +29,7 @@
           </div>          
         </form>
         <div style="margin-top: 3.5rem; text-align: center;">{{ $t("WelcomePage.NoAcc") }}
-          <router-link :to="'/registration'" style="color: #42b983">{{ $t("WelcomePage.CreateAcc") }}</router-link></div>
+          <router-link :to="'/registration'" style="color: #020381">{{ $t("WelcomePage.CreateAcc") }}</router-link></div>
       </div>
     </div>
 

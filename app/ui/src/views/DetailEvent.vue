@@ -442,7 +442,7 @@ export default {
 .btn-delete-user{
   font-size: 20px;
   padding: 10px;
-  color: #4aae9b;
+  color: #020381;
   background: transparent;
 }
 

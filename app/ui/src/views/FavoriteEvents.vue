@@ -196,7 +196,7 @@ export default {
 }
 
 .scrollmenu {
-  scrollbar-color: #42b983 #dceeea;
+  scrollbar-color: #020381 #dceeea;
 }
 
 .filters.friends-btn{
