@@ -1,0 +1,95 @@
+{
+  "AddNewEventModal":{
+    "Name":"Nazov eventu",
+    "Address":"Adresa",
+    "Date":"Datum",
+    "Description":"Popis",
+    "Capacity":"Kapacita",
+    "Category":"Kategoria",
+    "CategorySport":"Sport",
+    "CategoryEntertainment":"Zabava",
+    "CategoryMusic":"Hudba",
+    "CategoryTravelling":"Cestovanie",
+    "CategoryFood":"Jedlo",
+    "CategoryEducation":"Vzdelavanie",
+    "CategoryOther":"Ine",
+    "Photo":"Fotka",
+    "CreateEvent":"Vytvorit event",
+    "CloseWindow":"Zatvorit okno",
+    "Notification":"Nazov eventu nemoze obsahovat medzery"
+  },
+  "DetailEvent":{
+    "NotificationNoUser":"Nieje prihlaseny ziaden pouzivatel",
+    "NotificationSuccessSign":"Prihlasenie na event bolo uspesne",
+    "NotificationRemoved":"Odhlasil si sa z tohto eventu",
+    "NotificationComment":"Komentar bol pridany",
+    "NotificationCommentDeleted":"Komentar bol odstraneny",
+    "NotificationChangedData":"Udaje ku eventu boli zmenene",
+    "NotificationFullEvent":"Uz nieje volne miesto na tomto evente",
+    "Owner":"Majitel eventu",
+    "Date":"Datum",
+    "Address":"Adresa",
+    "Description":"Popis",
+    "SignedUsers":"Prihlaseny pouzivatelia",
+    "NoUser":"Na tento event sa este nikto nezapisal",
+    "Capacity":"Kapacita",
+    "ChangeData":"Zmenit udaje",
+    "DeleteEvent":"Vymazat event",
+    "AddComment":"Pridaj komentar",
+    "AllComments":"Komentare k tomuto eventu",
+    "NoComments":"Este niesu pridane ziadne komentare",
+    "SignIn":"Prihlasit sa",
+    "SignOut":"Odhlasit sa",
+    "Photo":"Fotka",
+    "Add":"Pridaj"
+  },
+  "NavigationBar":{
+    "Logout":"Odhlasit",
+    "SignUp": "Prihlasenie",
+    "Registration": "Zaregistrovat"
+  },
+  "Registration":{
+    "Name":"Meno",
+    "Password":"Heslo",
+    "Email":"Email",
+    "Address":"Adresa",
+    "Description":"Popis",
+    "Photo":"Fotka",
+    "Agree":"Suhlasim s podmienkami",
+    "Register":"Registrovat"
+  },
+  "SignUp":{
+    "Name":"Meno",
+    "Password":"Heslo",
+    "SignUp":"Prihlasit",
+    "Notif":"Zle meno alebo heslo"
+  },
+  "WelcomePage":{
+    "Name":"Meno",
+    "Password":"Heslo",
+    "SignUp":"Prihlasit",
+    "Notif":"Zle meno alebo heslo",
+    "NoAcc":"Nemas este ucet?",
+    "CreateAcc":"Registracia",
+    "MainText":"Some people look for a beautiful place. Others make a place beautiful.-Hazrat Inavat Khan "
+  },
+  "Profile":{
+    "Owned":"Vytvorene eventy",
+    "Joined":"Prihlasene eventy",
+    "Friends":"Priatelia",
+    "NoCreatedEvent":"Tento pouzivatel nevytvoril ziaden event",
+    "NoSignedEvent":"Tento pouzivatel sa neprihlasil na ziaden event",
+    "NoFriends":"Tento pouzivatel nema ziadnych kamaratov",
+    "Photo":"Fotka",
+    "Description":"Popis",
+    "Address":"Adresa",
+    "Email":"Emial",
+    "ChangeData":"Zmenit udaje",
+    "Notif":"Udaje boli uspesne zmenene",
+    "Remove":"Odobrat"
+  },
+  "Other":{
+    "ListOfFavorites":"Zoznam oblubenych eventov",
+    "Footer":"Kontakty"
+  }
+}
