@@ -243,7 +243,6 @@ body{
 .searchbar{
   width:25%;
   border-bottom: 1px solid #020381;
-  font-family: Fon;
   padding: 5px;
   margin-left: 2rem;
   outline: none;
@@ -294,7 +293,8 @@ body{
   border-radius: 0.3rem;
   width: 100%;
   min-height: 100px;
-  outline: 3px solid #42b983;
+  /*outline: 3px solid #020381;*/
+  box-shadow: #020381;
   margin-bottom: 0.42rem;
   object-fit: cover;
 }
@@ -375,7 +375,7 @@ body{
   border-radius: 50%;
   min-height: 7rem;
   min-width: 7rem;
-  outline: 3px solid #42b983;
+  outline: 3px solid #020381;
   margin-bottom: calc(0.7rem);
   object-fit: cover;
 }
@@ -392,7 +392,7 @@ body{
   width: 92vw;
   margin-left: 2.6%;
   padding-left: 0;
-  scrollbar-color: #42b983 #dceeea;
+  scrollbar-color: #020381 #dceeea;
 }
 
 .filters.friends-btn{

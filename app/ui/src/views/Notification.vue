@@ -38,7 +38,7 @@ export default {
 /* The alert message box */
 .alert2 {
   padding: 20px;
-  background-color: #56f436; /* Red */
+  background-color: #020381; /* Red */
   color: white;
   margin-bottom: 15px;
 }
