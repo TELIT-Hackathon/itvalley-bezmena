@@ -59,7 +59,7 @@
     style="display: flex; justify-content: center"
   />
 
-  <p v-if="this.version==1 && this.ownedEvents.length==0" style="text-align: center;">{{ $t("Profile.NoCreatedEvent") }}</p>
+  <p v-if="this.version==1 && this.ownedEvents.length==0" style="text-align: center;">{{  }}</p>
 
     <ul class="three-events" v-if="this.version==2">
     <li v-for="event in signedEvents2 /*signedEvents,ownedEvents*/" :key="event.EventId" class="event-list">
@@ -91,7 +91,7 @@
     style="display: flex; justify-content: center"
   />
 
-  <p v-if="this.version==2 && this.signedEvents.length==0" style="text-align: center;">{{ $t("Profile.NoSignedEvent") }}</p>
+  <p v-if="this.version==2 && this.signedEvents.length==0" style="text-align: center;">{{  }}</p>
 
   <ul class="three-events" v-if="this.version==3">
       <li v-for="friend in friendList" :key="friend.UserId" class="scroll-friends">
@@ -143,9 +143,69 @@ export default {
       singleUser2: [],
       events: [],
       ownedEvents:[],
-      ownedEvents2:[],
+      ownedEvents2:[{
+        "EventName": "PersonalData",
+        "EventAddress": "Deutsche Telekom IT",
+        "EventDescription": "Aplikacia na vyhladavnie svojich zaznamov na slovenskych weboch za ucelom ziadania vymazu.",
+        "EventOwner": "Deutsche Telekom IT",
+        "EventDateOfCreate": "2022-03-12",
+        "EventDateOfEvent": "2022-03-12",
+        "EventMaxUsers": 16,
+        "EventSignedUsers": "",
+        "EventFilter": "other"
+    },{
+        "EventName": "HateChecker",
+        "EventAddress": "Deutsche Telekom IT",
+        "EventDescription": "Browser plugin na kontrolu vlastnych prispevkov na hate speech na socialne siete.",
+        "EventOwner": "Deutsche Telekom IT",
+        "EventDateOfCreate": "2022-03-12",
+        "EventDateOfEvent": "2022-03-12",
+        "EventMaxUsers": 10,
+        "EventSignedUsers": "Marek,Jakub",
+        "EventFilter": "music"
+    },{
+        "EventName": "Sprava3D",
+        "EventAddress": "Deutsche Telekom IT",
+        "EventDescription": "Vytvorenie webového portálu pre nahrávanie a správu 3D modelov a sprostretkovanie týchto modelov v mobilnej aplikácií pre kreatívnu formu vzdelávania.",
+        "EventOwner": "Deutsche Telekom IT",
+        "EventDateOfCreate": "2022-03-12",
+        "EventDateOfEvent": "2022-03-12",
+        "EventMaxUsers": 7,
+        "EventSignedUsers": "Tomas,Matus",
+        "EventFilter": "other"
+    }],
       signedEvents:[],
-      signedEvents2:[],
+      signedEvents2:[{
+        "EventName": "SmartData",
+        "EventAddress": "Ness Košice",
+        "EventDescription": "Služba pre automatizáciu dataflowu (dodávatelia, zákazníci, produkty, ponúkané služby). Za pomoci ML a data processing vygeneruje ďalšie parametre pre katagolizáciu.",
+        "EventOwner": "Ness Košice",
+        "EventDateOfCreate": "2022-03-12",
+        "EventDateOfEvent": "2022-03-12",
+        "EventMaxUsers": 5,
+        "EventSignedUsers": "Nina,Monika",
+        "EventFilter": "music"
+    },{
+        "EventName": "IndexFund",
+        "EventAddress": "Ness Košice",
+        "EventDescription": "Fungujúci projekt Šport Košice (www.sportkosice.sk) potrebuje rozšírenie funkcionality. Táto unikátna webová stránka administrovaná pracovníkmi magistrátu združuje informácie o akciách, športových kluboch a športoviskách.",
+        "EventOwner": "Ness Košice",
+        "EventDateOfCreate": "2022-03-12",
+        "EventDateOfEvent": "2022-03-12",
+        "EventMaxUsers": 6,
+        "EventSignedUsers": "Katka,Adam",
+        "EventFilter": "food"
+    },{
+        "EventName": "NaucnyChodnik",
+        "EventAddress": "Siemens Healthcare s.r.o.",
+        "EventDescription": "Fungujúci projekt Šport Košice (www.sportkosice.sk) potrebuje rozšírenie funkcionality. Táto unikátna webová stránka administrovaná pracovníkmi magistrátu združuje informácie o akciách, športových kluboch a športoviskách.",
+        "EventOwner": "Siemens Healthcare s.r.o.",
+        "EventDateOfCreate": "2022-03-12",
+        "EventDateOfEvent": "2022-03-12",
+        "EventMaxUsers": 8,
+        "EventSignedUsers": "",
+        "EventFilter": "sport"
+    }],
       friendList:[],
       PhotoPath: "http://127.0.0.1:8000/Photos/",
       format: ".jpg",
@@ -248,6 +308,7 @@ export default {
     },
     owned(){
       this.version = 1
+      console.log(this.UserOwnedEvents)
     },
     joined(){
       this.version = 2
