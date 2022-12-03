@@ -77,7 +77,7 @@
   border-radius: 50%;
   height: 2.65rem;
   width: 2.65rem;
-  outline: 2px solid #42b983;
+  outline: 2px solid #020381;
   object-fit: cover;
   margin: 0 10px -14px 10px;
 }

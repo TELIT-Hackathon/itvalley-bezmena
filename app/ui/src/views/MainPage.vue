@@ -31,7 +31,7 @@
       <button class="travelling" style="background-color:#c8c3f8" @click="sortEvents('travelling')">{{ $t("Technologie.React") }}</button>
       <button class="food" style="background-color:#6c5676; color:#fff" @click="sortEvents('food')">{{ $t("Technologie.Cplus") }}</button>
       <button class="education" style="background-color:#bfef88" @click="sortEvents('education')">{{ $t("Technologie.Csharp") }}</button>
-      <button class="javaScript" style="background-color:#f8b184" @click="sortEvents('other')">{{ $t("Technologie.JavaScript") }}</button>
+      <button class="other" style="background-color:#f8b184" @click="sortEvents('other')">{{ $t("Technologie.JavaScript") }}</button>
     </div>
 
     <div class="event-list">
@@ -430,12 +430,13 @@ body{
   background-color: #020381;
   margin-left: 2rem;
   font-family: Roboto, Monospace, sans-serif;
-  position:fixed;
+  position:absolute;
 	bottom:40px;
 	right:40px;
 	color:#FFF;
 	text-align:center;
   border: 2px solid #FFF;
+  z-index: 1000;
 
 }
 
