@@ -1,33 +1,34 @@
 <template>
   <div class="mainpage">
 
-    <Notification messg="Novy event bol vytvoreny" format="2" v-if="this.NotifEventCreated" />
-    <Notification messg="Event bol pridany do oblubenych" format="2" v-if="this.NotifFavorite" />
-    <Notification messg="Taky event neexistuje" format="1" v-if="this.NotifError" />
+    <Notification messg="Novy projekt bol vytvoreny" format="2" v-if="this.NotifEventCreated" />
+    <Notification messg="Projekt bol pridany do oblubenych" format="2" v-if="this.NotifFavorite" />
+    <Notification messg="Taky projekt neexistuje" format="1" v-if="this.NotifError" />
 
     <Modal v-show="isModalVisible" @close="closeModal" />
 
     <div class="search">
     <input type="text" class="searchbar" placeholder="Vyhladat..." v-model="searchValue" />
     <button style="margin-left: 1rem" class="filters" @click="searchBar()">{{ $t("MainPage.Search") }}</button>
+    <button class="create" type="button" @click="showModal">{{$t("MainPage.Create") }}</button>
     </div>
     
     <div class="dashboard"> {{ $t("MainPage.Filter") }}
-      <button class="filters" @click="sortEvents2('2')">{{ $t("MainPage.Newest") }}</button>
-      <button class="filters" @click="sortEvents2('1')">{{ $t("MainPage.Close") }}</button>
-      <button class="filters" @click="sortEvents2('3')">{{ $t("MainPage.Biggest") }}</button>
+      <button class="filters" @click="sortEvents2('2')">{{ $t("Difficulty.Newest") }}</button>
       <button class="filters" style="margin-right:2rem" @click="redirectFavorite">{{ $t("MainPage.Favorite") }}</button><span class="vl"></span>
-    <button type="button" @click="showModal" style="margin-left: 2rem">{{ $t("MainPage.Create") }}</button>
+      <button class="filters" @click="sortEvents2('1')">{{ $t("Difficulty.Beginner") }}</button>
+      <button class="filters" @click="sortEvents2('3')">{{ $t("Difficulty.Advanced") }}</button>
+      <button class="filters" @click="sortEvents2('3')">{{ $t("Difficulty.Expert") }}</button>
     </div>
     
     <div class="dashboard" style="margin-top: 1rem">
-      <button class="filters" style="background-color:#f8cee0" @click="sortEvents('sport')">{{ $t("MainPage.Sport") }}</button>
-      <button class="filters" style="background-color:#d1e5f8" @click="sortEvents('entertainment')">{{ $t("MainPage.Entertainment") }}</button>
-      <button class="filters" style="background-color:#eff57c" @click="sortEvents('music')">{{ $t("MainPage.Music") }}</button>
-      <button class="filters" style="background-color:#c8c3f8" @click="sortEvents('travelling')">{{ $t("MainPage.Travelling") }}</button>
-      <button class="filters" style="background-color:#6c5676; color:#fff" @click="sortEvents('food')">{{ $t("MainPage.Food") }}</button>
-      <button class="filters" style="background-color:#bfef88" @click="sortEvents('education')">{{ $t("MainPage.Education") }}</button>
-      <button class="filters" style="background-color:#f8b184" @click="sortEvents('other')">{{ $t("MainPage.Other") }}</button>
+      <button class="filters" style="background-color:#f8cee0" @click="sortEvents('sport')">{{ $t("Technologie.Angular") }}</button>
+      <button class="filters" style="background-color:#d1e5f8" @click="sortEvents('entertainment')">{{ $t("Technologie.Java") }}</button>
+      <button class="filters" style="background-color:#eff57c" @click="sortEvents('music')">{{ $t("Technologie.Python") }}</button>
+      <button class="filters" style="background-color:#c8c3f8" @click="sortEvents('travelling')">{{ $t("Technologie.React") }}</button>
+      <button class="filters" style="background-color:#6c5676; color:#fff" @click="sortEvents('food')">{{ $t("Technologie.Cplus") }}</button>
+      <button class="filters" style="background-color:#bfef88" @click="sortEvents('education')">{{ $t("Technologie.Csharp") }}</button>
+      <button class="filters" style="background-color:#f8b184" @click="sortEvents('other')">{{ $t("Technologie.JavaScript") }}</button>
     </div>
 
     <div class="event-list">
@@ -228,6 +229,7 @@ export default {
 <style>
 body{
   margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .mainpage{
   text-align: center;
@@ -278,8 +280,6 @@ body{
 .event-list {
   list-style-type: none;
   display: inline-block;
-  /*width: 100;*/
-  /*background-color: thistle;*/
 }
 
 .event-name {
@@ -333,7 +333,8 @@ body{
 }
 
 .filters{
-  background-color: #dceeea;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #2874FC;
   color: #2c3e50;
   margin: 0 0.8% 0 0.8%;
 }
@@ -421,6 +422,10 @@ body{
   bottom: 0.4rem;
 }
 
-
+.create{
+  background-color: #020381;
+  margin-left: 2rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 </style>
