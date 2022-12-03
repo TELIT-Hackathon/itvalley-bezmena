@@ -132,7 +132,7 @@ events = [{
         "EventSignedUsers": "Adam,Petra",
         "EventFilter": "food"
     },{
-        "EventName": "SpravaNapajaniaRaspberry",
+        "EventName": "SpravaNapajania",
         "EventAddress": "Ness Košice",
         "EventDescription": "Navrhnite a implementujte správu napájania pre Raspberry Pi, Navrhnite a vytvorte si vlastný serverový kryt  pre RPi pomocou 3D tlaciarne. Navrhnite a implementujte ovládanie robotického ramena pomocou Raspberry Pi.",
         "EventOwner": "Ness Košice",
@@ -213,83 +213,83 @@ users = [
         {
         "UserName": "Jakub",
         "UserAddress": "Bruselska",
-        "UserDescription": "",
-        "UserEvents": "",
-        "UserFavorites": "",
-        "UserFriends": "",
-        "UserOwnedEvents": ""
+        "UserDescription": "Student",
+        "UserEvents": "OpenOfficeDesk",
+        "UserFavorites": "OpenOfficeDesk",
+        "UserFriends": "Andrej,Marek",
+        "UserOwnedEvents": "MedicalHistory,FyzickaAktivita,OpenOfficeDesk"
     },{
         "UserName": "Marek",
         "UserAddress": "Bruselska",
-        "UserDescription": "",
-        "UserEvents": "",
-        "UserFavorites": "",
-        "UserFriends": "",
-        "UserOwnedEvents": ""
+        "UserDescription": "Student",
+        "UserEvents": "MedicalHistory,FyzickaAktivita,OpenOfficeDesk",
+        "UserFavorites": "MedicalHistory,FyzickaAktivita,OpenOfficeDesk",
+        "UserFriends": "Nina,Katka",
+        "UserOwnedEvents": "OpenOfficeDesk"
     },{
         "UserName": "Andrej",
         "UserAddress": "Bruselska",
-        "UserDescription": "",
-        "UserEvents": "",
-        "UserFavorites": "",
-        "UserFriends": "",
-        "UserOwnedEvents": ""
+        "UserDescription": "Lector",
+        "UserEvents": "OpenOfficeDesk",
+        "UserFavorites": "OpenOfficeDesk",
+        "UserFriends": "Nina",
+        "UserOwnedEvents": "MedicalHistory,PersonalData,FyzickaAktivita"
     },{
         "UserName": "Tomas",
         "UserAddress": "Bruselska",
-        "UserDescription": "",
-        "UserEvents": "",
-        "UserFavorites": "",
+        "UserDescription": "Lector",
+        "UserEvents": "MedicalHistory,PersonalData,FyzickaAktivita",
+        "UserFavorites": "MedicalHistory,PersonalData,FyzickaAktivita",
         "UserFriends": "",
-        "UserOwnedEvents": ""
+        "UserOwnedEvents": "PersonalData,IndexFund"
     },{
         "UserName": "Matus",
         "UserAddress": "Bruselska",
-        "UserDescription": "",
-        "UserEvents": "",
-        "UserFavorites": "",
-        "UserFriends": "",
-        "UserOwnedEvents": ""
+        "UserDescription": "Mentor",
+        "UserEvents": "PersonalData,IndexFund",
+        "UserFavorites": "PersonalData,IndexFund",
+        "UserFriends": "Andrej",
+        "UserOwnedEvents": "FyzickaAktivita,SpravaNapajania"
     },{
         "UserName": "Adam",
         "UserAddress": "Bruselska",
-        "UserDescription": "",
-        "UserEvents": "",
-        "UserFavorites": "",
-        "UserFriends": "",
-        "UserOwnedEvents": ""
+        "UserDescription": "Student",
+        "UserEvents": "FyzickaAktivita,SpravaNapajania",
+        "UserFavorites": "FyzickaAktivita,SpravaNapajania",
+        "UserFriends": "Marek,Petra",
+        "UserOwnedEvents": "PersonalData,SpravaNapajania,IndexFund"
     },{
         "UserName": "Katka",
         "UserAddress": "Bruselska",
-        "UserDescription": "",
-        "UserEvents": "",
-        "UserFavorites": "",
-        "UserFriends": "",
-        "UserOwnedEvents": ""
+        "UserDescription": "Expert",
+        "UserEvents": "PersonalData,SpravaNapajania,IndexFund",
+        "UserFavorites": "PersonalData,SpravaNapajania,IndexFund",
+        "UserFriends": "Nina",
+        "UserOwnedEvents": "MedicalHistory,SpravaNapajania"
     },{
         "UserName": "Nina",
         "UserAddress": "Bruselska",
-        "UserDescription": "",
-        "UserEvents": "",
-        "UserFavorites": "",
-        "UserFriends": "",
-        "UserOwnedEvents": ""
+        "UserDescription": "Lector",
+        "UserEvents": "MedicalHistory,SpravaNapajania",
+        "UserFavorites": "MedicalHistory,SpravaNapajania",
+        "UserFriends": "Tomas",
+        "UserOwnedEvents": "IndexFund,OpenOfficeDesk"
     },{
         "UserName": "Petra",
         "UserAddress": "Bruselska",
-        "UserDescription": "",
-        "UserEvents": "",
-        "UserFavorites": "",
-        "UserFriends": "",
-        "UserOwnedEvents": ""
+        "UserDescription": "Mentor",
+        "UserEvents": "IndexFund,OpenOfficeDesk",
+        "UserFavorites": "IndexFund,OpenOfficeDesk",
+        "UserFriends": "Matus",
+        "UserOwnedEvents": "PersonalData,SpravaNapajania,IndexFund"
     },{
         "UserName": "Monika",
         "UserAddress": "Bruselska",
-        "UserDescription": "",
-        "UserEvents": "",
-        "UserFavorites": "",
-        "UserFriends": "",
-        "UserOwnedEvents": ""
+        "UserDescription": "Student",
+        "UserEvents": "PersonalData,SpravaNapajania,IndexFund",
+        "UserFavorites": "PersonalData,SpravaNapajania,IndexFund",
+        "UserFriends": "Marek",
+        "UserOwnedEvents": "MedicalHistory,PersonalData"
     }
     
     ]

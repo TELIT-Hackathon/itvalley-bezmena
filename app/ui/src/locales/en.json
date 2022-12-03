@@ -74,8 +74,8 @@
     "MainText":"Sometimes you just got to do it yourself ... "
   },
   "Profile":{
-    "Owned":"Owned events",
-    "Joined":"Joined events",
+    "Owned":"Ongoing Projects",
+    "Joined":"Closed Project",
     "Friends":"Friends",
     "NoCreatedEvent":"This user has not created any events",
     "NoSignedEvent":"This user has not joined any events",
